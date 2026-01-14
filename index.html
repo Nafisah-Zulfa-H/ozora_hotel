@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>大空ホテルでいらしゃいませ！</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    </head>
+    <body>
+        <!-- Each photo has opacity of 42%, will be added later, z-index will be 1, set the wifht and height manually
+        and add slider accordingly -->
+        <div id="top">
+            <div id="topnavi"><img src="pc_assets/top/navigation.png"></div>
+            <div id="navilist">
+                <ul>
+                    <li>
+                        <a href="#segment02">充実のホテル滞在</a>
+                    </li>
+                    <li>
+                        <a href="#segment03">ママ・パパも安心</a>
+                    </li>
+                    <li>
+                        <a href="#segment04">ホテルでキャンプ体験</a>
+                    </li>
+                    <li>
+                        <a href="#segment05">最高のブフェー</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div id="toptitle"><img src="pc_assets/top/title.png"></div>
+                <!-- This is main title, set it as usual -->
+                <div id="topgallery">
+                    <a href="pc_assets/top/photo1_bg_42op.jpg" target="_blank">
+                    <img src="pc_assets/top/photo1_bg_42op.jpg" class="modal1">
+                    </a>
+                    <a href="pc_assets/top/photo2_bg_42op.webp" target="_blank">
+                    <img src="pc_assets/top/photo2_bg_42op.webp" class="modal2">
+                    </a>
+                    <a href="pc_assets/top/photo3_bg_42op.jpg" target="_blank">
+                    <img src="pc_assets/top/photo3_bg_42op.jpg" class="modal3">
+                    </a>
+                <!-- Note: Sometimes, you can add a class on the img tag, depending on what funciton
+                 is needed -->
+            </div>
+            <div id="toptitlebottom"><img src="pc_assets/top/title_bottom.png"></div>
+            <div class="swipertop">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slidetopbg"><img src="pc_assets/top/photo1_bg_42op.jpg"></div>
+                    <div class="swiper-slidetopbg"><img src="pc_assets/top/photo2_bg_42op.webp"></div>
+                    <div class="swiper-slidetopbg"><img src="pc_assets/top/photo3_bg_42op.jpg"></div>
+                </div>
+            </div>
+        </div> 
+        <div id="segment02">
+            <div id="wave02">
+                <div class="modal4"></div>
+                <div class="modal5"></div>
+                <div class="modal6"></div>
+            </div>
+            <!-- 🌟Look at CSS notes-->
+            <div id="title02">
+                <img src="pc_assets/02/02_title.png" id="title02png">
+                <img src="pc_assets/02/cloud_top.png" id="topcloud02">
+            </div>
+            <img src="pc_assets/02/text_box.png" id="textbox02">
+            <div id="swiper02">
+                <div id="swiper02wrapper">
+                    <div class="swipergallery02-parallax">
+                        <div class="gallery0201-04">
+                            <img src="2 ver. 大空ホテル_デザイン入稿/02_充実のホテル滞在/滞在イメージ画像/01.webp">
+                        </div>
+                        <div class="gallerytext02">
+                            <p id="gallerytext0201">大空リゾート®からは無料の<br>
+                            シャトルバスによるアクセスも可能です。<br>
+                            ホテルに到着したらフロントで<br>
+                            チェックインをお済ませ下さい。</p>
+                        </div>
+                    </div>
+                    <div class="swipergallery02-parallax">
+                        <div class="gallery0201-04">
+                            <img src="2 ver. 大空ホテル_デザイン入稿/02_充実のホテル滞在/滞在イメージ画像/02.webp">
+                        </div>
+                        <div class="gallerytext02">
+                            <p id="gallerytext0202">客室は全室広々設計で、<br>
+                            ファミリーやグループみんなで<br>
+                            つろげます。また、全室が<br>
+                            バス・トイレ別で洗い場付きの<br>
+                            お風呂はお子様がいるファミリーに<br>
+                            ご好評です。</p>
+                        </div>
+                    </div>
+                    <div class="swipergallery02-parallax">
+                        <div class="gallery0201-04">
+                            <img src="2 ver. 大空ホテル_デザイン入稿/02_充実のホテル滞在/滞在イメージ画像/03.jpg">
+                        </div>
+                        <div class="gallerytext02">
+                            <p id="gallerytext0203">館内には、お子様連れのご家族は<br>
+                            もちろん、さまざまな年代の方が快適に<br>
+                            過ごしていただける施設やサービスを<br>
+                            ご用意しています。</p>
+                        </div>
+                    </div>
+                    <div class="swipergallery02-parallax">
+                        <div class="gallery0201-04">
+                            <img src="2 ver. 大空ホテル_デザイン入稿/02_充実のホテル滞在/滞在イメージ画像/04.jpg">
+                        </div>
+                        <div class="gallerytext02">
+                            <p id="gallerytext0204">最上階の7階には、宿泊者限定で<br>
+                            ご利用できる大浴場を用意。海を<br>
+                            一望できる大浴場で、ご家族みんなで<br>
+                            癒やされて下さい。</p>
+                            <p id="gallerytext0204note">
+                            ※小学1年生以上の方は、<br>
+                            男女別のご利用とさせていただきます。</p>
+                        <!-- ^Small note for 4th text -->
+                        </div>
+                    </div>
+                    <!-- edit border fotonya secara manual di CSS aja kyk sebelumnya, pengaturan bisa pakai
+                    margin dsb di divisiion, sementara ini utk display bisa pakai position absolute
+                    until we undedstand about the whole swiper thing
+                    Note: Kata Diva, sebelumd di edit dalam java script, bentuknya juga jejer tiga kebawah
+                    jadi memang engga pakai position absolute -->
+                </div>
+                <div id="swiper02-pagination"></div>
+                <div class="swiper-nextbutton02"><img src="pc_assets/02/next_fishbutton.png"></div>
+                <div class="swiper-prevbutton02"><img src="pc_assets/02/next_fishbutton.png"></div>
+            </div>
+            <div id="youyaku02box">
+                <img src="pc_assets/02/youyaku2_1.png" id="youyaku0201">
+                <p id="youyaku0201text">15時から翌23時まで滞在できるバルコニー付き客室</p>
+                <img src="pc_assets/02/youyaku2_2.png" id="youyaku0202">
+                <p id="youyakutext0202">朝5時から翌13時まで滞在できるバルコニー付き客室</p>
+                <div id="youyakubutton02">
+                    <img src="pc_assets/02/youyakubutton.png" id="youyakubutton0201">
+                    <img src="pc_assets/02/youyakubutton.png" id="youyakubutton0202">
+                </div>
+            </div>
+        </div>
+        <div id="segment03">
+            <div id="title03">
+                <img src="pc_assets/03/title.png" id="title03png">
+            </div>
+        </div>
+        <div id="segment04">
+        </div>
+        <div id="segment05">
+        </div>
+        <div id="segment06">           
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js" charset="utf-8" defer></script>
+    </body>
+</html>
