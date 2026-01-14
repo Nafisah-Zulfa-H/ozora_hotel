@@ -69,7 +69,7 @@ li a:hover {
 
 /* Gallery */
 #topgallery {
-    z-index: 4;
+    z-index: 5;
     position: absolute;
 }
 .modal1 {
@@ -321,4 +321,5 @@ pakai hover entah di masing2 class atau di idnya aja */
     width: 990px;
     height: 750px;
     position: relative;
+
 }
