@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>大空ホテルでいらしゃいませ！</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    </head>
+    <!-- IF ANY SWIPER AND BUTTONS DOESN'T WORK, MAKE SURE TO SET THE BODY HEIGHT IN CSS BECAUSE THAT THING
+     IS THE SOURCE OF THE TROLL BY BLOCKING EVERYTHING BELOW IT OMAGAAAA
+     P.s: make sure to check if it's the problem by inspecting it first or if it's another element-->
+    <body>
+        <div id="top">
+            <div id="topnavi"><img src="pc_assets/top/navigation.png"></div>
+            <div id="navilist">
+                <ul>
+                    <li>
+                    <a href="#segment02">充実のホテル滞在</a>
+                    </li>
+                    <li>
+                    <a href="#segment03">ママ・パパも安心</a>
+                    </li>
+                    <li>
+                    <a href="#segment04">ホテルでキャンプ体験</a>
+                    </li>
+                    <li>
+                    <a href="#segment05">最高のブフェー</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="toptitle"><img src="pc_assets/top/title.png"></div>
+                <!-- This is main title, set it as usual -->
+            <div id="topgallery">
+                <a href="pc_assets/top/photo1_bg_42op.jpg" target="_blank">
+                <img src="pc_assets/top/photo1_bg_42op.jpg" class="modal1">
+                </a>
+                <a href="pc_assets/top/photo2_bg_42op.webp" target="_blank">
+                <img src="pc_assets/top/photo2_bg_42op.webp" class="modal2">
+                </a>
+                <a href="pc_assets/top/photo3_bg_42op.jpg" target="_blank">
+                <img src="pc_assets/top/photo3_bg_42op.jpg" class="modal3">
+                </a>
+            </div>
+                <!-- Note: Sometimes, you can add a class on the img tag, depending on what funciton
+                 is needed, you might want to use the id/class in img for transition if there is any hover function-->
+            <div id="toptitlebottom"><img src="pc_assets/top/title_bottom.png"></div>
+            <div class="swiper swiper-top">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide topbg"><img src="pc_assets/top/photo1_bg_42op.jpg"></div>
+                    <div class="swiper-slide topbg"><img src="pc_assets/top/photo2_bg_42op.webp"></div>
+                    <div class="swiper-slide topbg"><img src="pc_assets/top/photo3_bg_42op.jpg"></div>
+                </div>
+            </div>
+        </div> 
+        <div id="segment02">
+            <div id="wave02"><!-- 🌟Look at CSS notes-->
+                <div class="modal4"></div>
+                <div class="modal5"></div>
+                <div class="modal6"></div>
+            </div>
+            <div id="title02">
+                <img src="pc_assets/02/02_title.png" id="title02png">
+                <img src="pc_assets/02/cloud_top.png" id="topcloud02">
+            </div>
+            <img src="pc_assets/02/text_box.png" id="textbox02">
+            <!-- untuk swiper text pakai gambar ini di display flex aja, revisi untuk teks nya jangan di
+             set sesuai sama posisi text box nya dulu -->
+            <div class="swiper swiper-segment02">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide segment02-gallery">
+                        <div class="title" data-swiper-parallax="-300">
+                            <img src="pc_assets/02/01.webp">
+                        </div>
+                        <div class="subtitle" data-swiper-parallax="-200"></div>
+                        <div class="text" data-swiper-parallax="-100">
+                            <p>
+                            大空リゾート®からは無料の<br>
+                            シャトルバスによるアクセスも可能です。<br>
+                            ホテルに到着したらフロントで<br>
+                            チェックインをお済ませ下さい。</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide segment02-gallery">
+                        <div class="title" data-swiper-parallax="-300">
+                            <img src="pc_assets/02/02.webp">
+                        </div>
+                        <div class="subtitle" data-swiper-parallax="-200"></div>
+                        <div class="text" data-swiper-parallax="-100">
+                            <p>
+                            客室は全室広々設計で、ファミリーや<br>
+                            グループみんなでつろげます。<br>
+                            また、全室がバス・トイレ別で<br>
+                            洗い場付きのお風呂はお子様が<br>
+                            いるファミリーにご好評です。</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide segment02-gallery">
+                        <div class="title" data-swiper-parallax="-300">
+                            <img src="pc_assets/02/03.jpg">
+                        </div>
+                        <div class="subtitle" data-swiper-parallax="-200"></div>
+                        <div class="text" data-swiper-parallax="-100">
+                            <p>館内には、お子様連れのご家族は<br>
+                            もちろん、さまざまな年代の方が快適に<br>
+                            過ごしていただける施設やサービスを<br>
+                            ご用意しています。</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide segment02-gallery">
+                        <div class="title" data-swiper-parallax="-300">
+                            <img src="pc_assets/02/04.jpg">
+                        </div>
+                        <div class="subtitle" data-swiper-parallax="-200"></div>
+                        <div class="text" data-swiper-parallax="-100">
+                            <p>最上階の7階には、宿泊者限定で<br>
+                            ご利用できる大浴場を用意。海を<br>
+                            一望できる大浴場で、ご家族みんなで<br>
+                            癒やされて下さい。</p>
+                            <p class="gallerytext02">
+                            ※小学1年生以上の方は、<br>
+                            男女別のご利用とさせていただきます。</p>
+                        </div>
+                        <!-- ^Small note for 4th text -->
+                    </div>
+                </div>
+                <div id="swiper-pagination"></div>
+                <div class="swiper-button-prev"><img src="pc_assets/02/prev_fishbutton.png" class="button"></div>
+                <div class="swiper-button-next"><img src="pc_assets/02/next_fishbutton.png" class="button"></div>
+            </div>
+            <div id="youyaku02box">
+                <div id="youyaku0201">
+                    <img src="pc_assets/02/youyaku2_1.png">
+                    <div id="youyakubutton0201">
+                        <a href="omaga_blankpage.html" target="_blank">
+                        <img src="pc_assets/02/youyakubutton.png" alt="" class="button">
+                        </a>
+                    </div>
+                <p id="youyakutext0201">
+                    15時から翌23時<br>
+                    まで滞在できる<br>
+                    バルコニー付き客室</p>
+                </div>
+                <div id="youyaku0202">
+                    <img src="pc_assets/02/youyaku2_2.png">
+                    <div id="youyakubutton0202">
+                        <a href="omaga_blankpage.html" target="_blank">
+                        <img src="pc_assets/02/youyakubutton.png" alt="" class="button">
+                        </a>
+                    </div>
+                <p id="youyakutext0202">
+                    朝5時から翌13時<br>
+                    まで滞在できる<br>
+                    バルコニー付き客室</p>
+                </div>
+            </div>
+        </div>
+        <div id="segment03">
+            <div id="title03">
+                <img src="pc_assets/03/title.png" id="title03png">
+                <img src="pc_assets/03/photo.png" id="photo03">
+                <p id="photodesc03">大空ホテルは「ウェルカムベビーのお宿」認定ホテルです。<br>
+                    全室がバス・トイレ独立型で小さなお子様と 一緒の宿泊にも安心。</p>
+            </div>
+            <div id="youyaku03">
+                <img src="pc_assets/03/youyaku3.png" alt="" id="youyaku03bg">
+                <div id="youyakubutton03">
+                    <a href="omaga_blankpage.html" target="_blank">
+                    <img src="pc_assets/03/youyakubutton3.png" class="button">
+                    </a>
+                </div>
+            </div>
+            <div id="bg03">
+                <img src="pc_assets/03/ground.png" id="bg03ground">
+            </div>
+        </div>
+        <div id="segment04">
+            <div id="title04">
+                <img src="pc_assets/04/title.png" id="title04png">
+            </div>
+            <div class="swiper swiper-segment04">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide segment04-gallery">
+                            <img src="pc_assets/04/photo05.jpg">
+                        </div>
+                        <div class="swiper-slide segment04-gallery">
+                            <img src="pc_assets/04/photo01.jpg">
+                        </div>
+                        <div class="swiper-slide segment04-gallery">
+                            <img src="pc_assets/04/photo02.jpg">
+                        </div>
+                        <div class="swiper-slide segment04-gallery">
+                            <img src="pc_assets/04/photo03.jpg">
+                        </div>
+                        <div class="swiper-slide segment04-gallery">
+                            <img src="pc_assets/04/photo04.jpg">
+                        </div>
+                    </div>
+                <div class="swiper-pagination"></div>
+                </div>
+            <div id="title04bgpng">
+                <img src="pc_assets/04/photobg.png">
+            </div>
+            <p id="photodesc04">キャンプ用品定番のテント、シュラフ（寝袋）、<br>
+            キャンプベッドを客室にご用意し、お部屋でキャンプの疑似体験を<br>
+            していただけます。さらに、テーブル、チェアなどのアウトドア用品、<br>
+            キャンプ気分を盛り上げるルーム用プラネタリウムもご用意しました。</p>
+            <div id="button04">
+                <img src="pc_assets/04/youyaku4_1.png" id="youyaku0401">
+                <img src="pc_assets/04/youyaku4_2.png" id="youyaku0402">
+                <div id="youyakubutton0401">
+                    <a href="omaga_blankpage.html" target="_blank">
+                    <img src="pc_assets/04/youyaku4button1.png" class="button">
+                    </a>
+                </div>
+                <div id="youyakubutton0402">
+                    <a href="omaga_blankpage.html" target="_blank">
+                    <img src="pc_assets/04/youyaku4button2.png" class="button">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="segment05">
+            <div id="title05">
+                <img src="pc_assets/05/title.png" id="title05png">
+            </div>
+                <div class="swiper swiper-segment05">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide gallery05">
+                            <img src="pc_assets/05/photo01.jpg">
+                        </div>
+                        <div class="swiper-slide gallery05">
+                            <img src="pc_assets/05/photo02.jpg">
+                        </div>
+                        <div class="swiper-slide gallery05">
+                            <img src="pc_assets/05/photo03.webp">
+                        </div>
+                        <div class="swiper-slide gallery05">
+                            <img src="pc_assets/05/photo04.webp">
+                        </div>
+                    </div>
+                </div>
+            <div id="segment05-text">
+                <div id="segment05-text01group">
+                    <p id="segment05-text01">
+                        パフォーマンスキッチンでシェフが<br>
+                        目の前で仕上げる特製料理が<br>
+                        盛りだくさん。ハンバーガーや、お好み<br>
+                        の具材を選べるオムレツもシェフが<br>
+                        目の前で焼き上げます。</p>
+                    <img src="pc_assets/05/textboxegg1.png" id="segment05-textbox01">
+                </div>
+                <div id="segment05-text02group">
+                    <p id="segment05-text02">
+                        また、お子様に好評のメニューを<br>
+                        そろえたキッズブッフェコーナーもあり、<br>
+                        ご家族みなさまでお楽しみ<br>
+                        いただけます。</p>
+                    <img src="pc_assets/05/textboxegg2.png" id="segment05-textbox02">
+                </div>
+            </div>
+            <img src="pc_assets/05/squigly.png" id="segment05-squigly">
+            <div id="segment05-coupon">
+                <div id="segment05-coupontext-wrapper">
+                <p id="segment05-coupontext">
+                    パフォーマンスキッチンの料理のほか、和食、冷製・温製料理、<br>
+                    サラダバー、スープなどをご用意。品数豊富なホテル<br>
+                    自慢の朝食ブッフェをお楽しみください。
+                </p>
+                <p id="segment05-coupontext-note">
+                    ※状況によりご提供内容が変更する場合があります
+                </p>
+                </div>
+                <img src="pc_assets/05/05_top.png" id="segment05-coupon-png">
+            </div>
+            <div id="segment06">
+                <div id="coupon">
+                    <div id="coupon-button">
+                        <a href="omaga_blankpage.html" target="_blank">
+                        <img src="pc_assets/06/couponbutton06.png" class="button">
+                        </a>
+                    </div>
+                    <div id="jal">
+                        <img src="pc_assets/06/jal.png" id="jal-bg">
+                        <div id="jal-button">
+                            <a href="omaga_blankpage.html" target="_blank">
+                            <img src="pc_assets/06/jalbutton.png" class="button">
+                            </a>
+                        </div>
+                    </div>
+                    <div id="ana">
+                        <img src="pc_assets/06/ana.png" id="ana-bg">
+                        <div id="ana-button">
+                            <a href="omaga_blankpage.html" target="_blank">
+                            <img src="pc_assets/06/anabutton.png" class="button">
+                            </a>
+                        </div>
+                    </div>
+                    <img src="pc_assets/06/coupon.png" id="coupon-bg">
+                    <p id="coupon-text">
+                        ※クーポン取得ページにてクーポンの使用条件と<br>
+                        ご利用上の注意をご確認ください。クーポンには配布期間が設けられています。
+                    </p>
+                </div>           
+            </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js" charset="utf-8" defer></script>
+    </body>
+</html>
